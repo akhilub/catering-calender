@@ -1,3 +1,68 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/OpenSans-Light.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/OpenSans-Regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/OpenSans-Bold.woff2") format('woff2');
+}
+
+/* Adding Roboto Font Family */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/Roboto-Light.tff") format('tff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Roboto-Regular.tff") format('tff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/Roboto-Meduim.tff") format('tff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/Roboto-Bold.tff") format('tff');
+}
+
+@font-face {
+  font-family: 'Samantha';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Samantha.ttf") format('ttf');
+}
+
+@font-face {
+  font-family: 'Brandon';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Brandon.ttf") format('truetype');
+}

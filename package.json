@@ -11,8 +11,11 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
   },
   "dependencies": {
+    "node.url": "^1.0.8",
     "pinia": "^2.0.28",
+    "url": "^0.11.0",
     "vue": "^3.2.45",
+    "vue-cal": "^4.8.1",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
