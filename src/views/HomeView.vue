@@ -13,8 +13,8 @@ export default defineComponent({
       showDialog: false,
       events: [
         {
-          start: "2018-11-20 14:00",
-          end: "2018-11-20 18:00",
+          start: "2023-01-20 14:00",
+          end: "2023-01-20 18:00",
           title: "Need to go shopping",
           icon: "shopping_cart", // Custom attribute.
           content: "Click to see my shopping list",
@@ -23,8 +23,8 @@ export default defineComponent({
           class: "leisure",
         },
         {
-          start: "2018-11-22 10:00",
-          end: "2018-11-22 15:00",
+          start: "2023-01-22 10:00",
+          end: "2023-01-22 15:00",
           title: "Golf with John",
           icon: "golf_course", // Custom attribute.
           content: "Do I need to tell how many holes?",
@@ -55,12 +55,24 @@ export default defineComponent({
 <template>
   <div id="#calendar" class="text-xl font-bold justify-center">
     <p class="text-center">Calender Catering</p>
-    <vue-cal
+    <!-- Hide Weekends -->
+    <!-- <vue-cal
       selected-date="2018-11-19"
       :time-from="9 * 60"
       :time-to="19 * 60"
       :disable-views="['years', 'year']"
       hide-weekends
+      :events="events"
+      :on-event-click="onEventClick"
+    >
+    </vue-cal> -->
+
+    <!-- Show Weekends -->
+    <vue-cal
+      selected-date="2023-01-01"
+      :time-from="10 * 60"
+      :time-to="19 * 60"
+      :disable-views="['years', 'year']"
       :events="events"
       :on-event-click="onEventClick"
     >
